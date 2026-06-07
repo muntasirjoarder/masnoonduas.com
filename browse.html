@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Printable Duas — MasnoonDuas</title>
+  <meta name="description" content="Browse and download print-ready Islamic dua cards for every room in your home. Real duas, real PDFs — download, print, laminate, and place.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/browse.css">
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────────── -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="masnoon.svg" alt="MasnoonDuas" class="nav-logo-img">
+    </a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html?tab=collections" class="active">Collections</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="distribute.html">Distribution</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="browse.html" class="btn btn-primary">Find a Dua</a>
+    </div>
+  </div>
+</header>
+
+<!-- ── PAGE HEADER ── -->
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="page-header-kicker">Printable Islamic Prayers & Guides</div>
+    <h1 class="page-header-title">Download &amp; Print</h1>
+    <p class="page-header-sub">Print-ready PDFs for your home, travel, and daily worship. Download, laminate, and place where the reminder matters most.</p>
+
+  </div>
+</div>
+
+<!-- ── BROWSE LAYOUT ── -->
+<div class="browse-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" aria-label="Filter options">
+    <div class="search-row">
+      <input
+        type="search" class="search-input" id="search-input"
+        placeholder="Search duas…"
+        autocomplete="off" aria-label="Search duas"
+      >
+      <button class="search-btn" type="button" onclick="handleSearch()" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-title">By Category</div>
+      <div class="sidebar-filters">
+        <div class="sidebar-filter active" data-tag="all" onclick="filterByTag('all', null, this)">
+          All Products <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter" data-tag="inhome" onclick="filterByTag('inhome', null, this)">
+          In Home <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter sidebar-filter-sub" data-tag="entryway" onclick="filterByTag('entryway', null, this)">
+          The Entryway <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter sidebar-filter-sub" data-tag="dining" onclick="filterByTag('dining', null, this)">
+          Dining Room <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter sidebar-filter-sub" data-tag="bedroom" onclick="filterByTag('bedroom', null, this)">
+          Bedroom <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter sidebar-filter-sub" data-tag="bathroom" onclick="filterByTag('bathroom', null, this)">
+          Bathroom <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter sidebar-filter-sub" data-tag="protection" onclick="filterByTag('protection', null, this)">
+          Protection <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter" data-tag="outside" onclick="filterByTag('outside', null, this)">
+          Travel &amp; Outside <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter sidebar-filter-sub" data-tag="travel" onclick="filterByTag('travel', null, this)">
+          Journey &amp; Travel <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter sidebar-filter-sub" data-tag="worship" onclick="filterByTag('worship', null, this)">
+          Worship &amp; Hajj <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter" data-tag="collection" onclick="filterByTag('collection', null, this)">
+          Collections <span class="sidebar-filter-count">—</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Format</div>
+      <div class="sidebar-filters">
+        <div class="sidebar-filter" data-tag="a4" onclick="filterByTag('a4', null, this)">
+          A4 Print <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter" data-tag="strip" onclick="filterByTag('strip', null, this)">
+          Strip / Carry <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter" data-tag="booklet" onclick="filterByTag('booklet', null, this)">
+          Booklet <span class="sidebar-filter-count">—</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Availability</div>
+      <div class="sidebar-filters">
+        <div class="sidebar-filter" data-tag="available" onclick="filterByTag('available', null, this)">
+          Available Now <span class="sidebar-filter-count">—</span>
+        </div>
+        <div class="sidebar-filter" data-tag="coming-soon" onclick="filterByTag('coming-soon', null, this)">
+          Coming Soon <span class="sidebar-filter-count">—</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- RESULTS -->
+  <main>
+    <div class="results-header">
+      <div class="results-count"><strong id="results-count">—</strong> products available</div>
+    </div>
+
+    <div class="dua-grid" id="dua-grid">
+      <div class="no-results" id="no-results">
+        <div class="no-results-title">No results found</div>
+        <div class="no-results-sub">Try a different search term or clear your filter.</div>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">
+          <img src="masnoon.svg" alt="MasnoonDuas" class="footer-logo-img">
+        </div>
+        <p class="footer-tagline">A free library of print-ready Islamic dua cards — because the Sunnah of daily remembrance belongs in every room.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Browse</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="browse.html">All Duas</a></li>
+          <li><a href="browse.html?tab=collections">Collections</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 MasnoonDuas. Made with intention for the Muslim community.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/browse.js"></script>
+</body>
+</html>

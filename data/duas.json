@@ -1,0 +1,242 @@
+{
+  "collections": [
+    {
+      "id": "all-home-duas",
+      "slug": "all-home-duas",
+      "webpage": "collection-home.html",
+      "title": "All Home Duas — One PDF",
+      "description": "All six daily prayers for the home — entering, leaving, meals, waking, bathroom, and protection — in a single print-ready A4 PDF with a placement guide included.",
+      "room": "Collection",
+      "roomKey": "collection",
+      "stats": [
+        "6 duas + placement guide",
+        "A4 · Print-ready",
+        "Download, laminate, bluetag"
+      ],
+      "pdf": "pdfs/mq2ewup0-all-home-dua.pdf",
+      "pdfDownloadName": "MasnoonDuas-All-Home-Duas.pdf",
+      "status": "available",
+      "tags": ["all", "available", "collection", "a4"]
+    }
+  ],
+  "duas": [
+    {
+      "id": "entering-home",
+      "slug": "entering-home",
+      "webpage": "entryway-dua.html",
+      "title": "Dua for Entering the Home",
+      "category": "home",
+      "room": "The Entryway",
+      "roomKey": "entryway",
+      "summary": "Recited upon stepping into your home, this prayer invites Allah's blessing into the household and ensures Shaytan cannot enter with you or share in your evening meal.",
+      "placement": "Inside your front door, at eye level",
+      "arabic": "بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى رَبِّنَا تَوَكَّلْنَا",
+      "transliteration": "Bismillāhi walajnā, wa bismillāhi kharajnā, wa ʿalā Rabbinā tawakkalnā",
+      "translation": "In the name of Allah we enter, in the name of Allah we leave, and upon our Lord we place our trust.",
+      "virtues": "The Prophet ﷺ would say this dua upon entering the home. It establishes barakah in the household and reminds the family that their dwelling is under Allah's protection.",
+      "source": {
+        "display": "Abu Dawud 5096 · Hasan",
+        "book": "Abu Dawud",
+        "number": "5096",
+        "grade": "Hasan"
+      },
+      "print": {
+        "pdf": "pdfs/mq2ew83u-entering-home.pdf",
+        "downloadName": "Dua-Entering-Home.pdf"
+      },
+      "tags": ["all", "available", "single", "inhome", "entryway", "a4"],
+      "pages": 2,
+      "status": "available"
+    },
+    {
+      "id": "leaving-home",
+      "slug": "leaving-home",
+      "webpage": "entryway-dua.html",
+      "title": "Dua for Leaving the Home",
+      "category": "home",
+      "room": "The Entryway",
+      "roomKey": "entryway",
+      "summary": "Said before stepping out, this prayer draws Allah's guidance, protection, and sufficiency. The Prophet ﷺ taught that whoever recites it will be told: \"You are guided, protected, and kept safe.\"",
+      "placement": "Inside your front door, paired with the Entering prayer",
+      "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "transliteration": "Bismillāh, tawakkaltu ʿala-llāh, wa lā ḥawla wa lā quwwata illā billāh",
+      "translation": "In the name of Allah, I place my trust in Allah, and there is no might nor power except with Allah.",
+      "virtues": "Upon leaving the home with this dua, an angel says: 'You are guided, defended, and protected.' Shaytan turns away from one who says it.",
+      "source": {
+        "display": "Abu Dawud 5095 · Sahih",
+        "book": "Abu Dawud",
+        "number": "5095",
+        "grade": "Sahih"
+      },
+      "print": {
+        "pdf": "pdfs/mq2ew857-leaving-home.pdf",
+        "downloadName": "Dua-Leaving-Home.pdf"
+      },
+      "tags": ["all", "available", "single", "inhome", "entryway", "a4"],
+      "pages": 2,
+      "status": "available"
+    },
+    {
+      "id": "meals",
+      "slug": "meals",
+      "webpage": "meals-dua.html",
+      "title": "Dua Before & After Meals",
+      "category": "home",
+      "room": "Dining Room",
+      "roomKey": "dining",
+      "summary": "Two short prayers — one to begin a meal in Allah's name and invite His blessing, and one to end it with gratitude. This PDF includes both, designed to sit at the dining table or kitchen wall.",
+      "placement": "Dining table or kitchen wall",
+      "arabic": "بِسْمِ اللَّهِ",
+      "transliteration": "Bismillāh",
+      "translation": "In the name of Allah.",
+      "virtues": "The Prophet ﷺ said: 'When one of you eats food, let him say Bismillah. If he forgets at the beginning, let him say: Bismillahi fi awwalihi wa akhirihi.'",
+      "source": {
+        "display": "Abu Dawud 3767 · Hasan",
+        "book": "Abu Dawud",
+        "number": "3767",
+        "grade": "Hasan"
+      },
+      "print": {
+        "pdf": "pdfs/mq2ew85q-meals.pdf",
+        "downloadName": "Dua-Meals.pdf"
+      },
+      "tags": ["all", "available", "single", "inhome", "dining", "a4"],
+      "pages": 2,
+      "status": "available"
+    },
+    {
+      "id": "wake-up",
+      "slug": "wake-up",
+      "webpage": "morning-dua.html",
+      "title": "Dua Upon Waking",
+      "category": "home",
+      "room": "Bedroom",
+      "roomKey": "bedroom",
+      "summary": "The first words of the day — an acknowledgement that sleep is a small death and each morning is a renewed gift from Allah. A physical reminder by the bed makes this Sunnah effortless to build as a daily habit.",
+      "placement": "Bedside table or the wall you face upon waking",
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "transliteration": "Alḥamdu lillāhi-lladhī aḥyānā baʿda mā amātanā wa ilayhi-n-nushūr",
+      "translation": "All praise is for Allah who gave us life after having taken it from us, and unto Him is the resurrection.",
+      "virtues": "The Prophet ﷺ recited this upon waking. Beginning the day with gratitude to Allah sets the spiritual tone for every hour that follows.",
+      "source": {
+        "display": "Sahih al-Bukhari 6312",
+        "book": "Sahih al-Bukhari",
+        "number": "6312",
+        "grade": "Sahih"
+      },
+      "print": {
+        "pdf": "pdfs/mq2ew86n-wake-up.pdf",
+        "downloadName": "Dua-Wake-Up.pdf"
+      },
+      "tags": ["all", "available", "single", "inhome", "bedroom", "a4"],
+      "pages": 2,
+      "status": "available"
+    },
+    {
+      "id": "bathroom",
+      "slug": "bathroom",
+      "webpage": "bathroom-dua.html",
+      "title": "Dua Before Entering the Bathroom",
+      "category": "home",
+      "room": "Bathroom",
+      "roomKey": "bathroom",
+      "summary": "Seeking refuge from the evil spirits that dwell in unclean places, this prayer is recited just before crossing the threshold — never inside. Place it where it's seen every single time.",
+      "placement": "Just outside the bathroom door, at eye level",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+      "transliteration": "Allāhumma innī aʿūdhu bika mina-l-khubthi wa-l-khabāʾith",
+      "translation": "O Allah, I seek refuge with You from the male and female evil spirits.",
+      "virtues": "The Prophet ﷺ said to seek this protection before entering the bathroom. It shields the person from the jinn that inhabit unclean places.",
+      "source": {
+        "display": "Bukhari 142 · Muslim 375",
+        "book": "Sahih al-Bukhari",
+        "number": "142",
+        "grade": "Sahih"
+      },
+      "print": {
+        "pdf": "pdfs/mq2ew862-toilet.pdf",
+        "downloadName": "Dua-Bathroom.pdf"
+      },
+      "tags": ["all", "available", "single", "inhome", "bathroom", "a4"],
+      "pages": 2,
+      "status": "available"
+    },
+    {
+      "id": "evil-eye",
+      "slug": "evil-eye",
+      "webpage": "protection-dua.html",
+      "title": "Dua Against the Evil Eye",
+      "category": "home",
+      "room": "Protection",
+      "roomKey": "protection",
+      "summary": "A comprehensive supplication seeking refuge in Allah's perfect words from all harm. The Prophet ﷺ used this prayer to protect his grandsons Hasan and Husayn — particularly powerful for children's rooms.",
+      "placement": "Children's bedroom or main entrance",
+      "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لَامَّةٍ",
+      "transliteration": "Aʿūdhu bi-kalimāti-llāhi-t-tāmmati min kulli shayṭānin wa hāmmah, wa min kulli ʿaynin lāmmah",
+      "translation": "I seek refuge in the perfect words of Allah from every devil and every poisonous creature, and from every evil eye.",
+      "virtues": "The Prophet ﷺ used to seek Allah's protection for al-Hasan and al-Husayn using these words, and say: 'Your forefather Ibrahim used to seek protection for Ismail and Ishaaq with these same words.'",
+      "source": {
+        "display": "Sahih Muslim 2709",
+        "book": "Sahih Muslim",
+        "number": "2709",
+        "grade": "Sahih"
+      },
+      "print": {
+        "pdf": "pdfs/mq2ew84e-evil-eyes.pdf",
+        "downloadName": "Dua-Evil-Eye.pdf"
+      },
+      "tags": ["all", "available", "single", "inhome", "protection", "a4"],
+      "pages": 2,
+      "status": "available"
+    },
+    {
+      "id": "umrah-guide",
+      "slug": "umrah-guide",
+      "webpage": "umrah-guide.html",
+      "title": "Umrah Step-by-Step Guide",
+      "category": "travel",
+      "room": "Travel & Worship",
+      "roomKey": "travel",
+      "summary": "A complete A4 printable guide to performing Umrah — every step clearly laid out with duas for each stage. Print, laminate, cut along the marks, bind with a ring, and wear during your journey to the blessed Haram.",
+      "placement": "Print · laminate · cut · bind with a ring · hang around neck during Umrah",
+      "arabic": null,
+      "transliteration": null,
+      "translation": null,
+      "virtues": "A comprehensive reference to carry during Umrah so every step — from entering Ihram to performing Tawaf, Sa'i, and shaving — is done with confidence and the correct supplications.",
+      "source": {
+        "display": "Compiled from authentic sources",
+        "book": null,
+        "number": null,
+        "grade": null
+      },
+      "print": {
+        "pdf": "pdfs/mq2exy8s-umrah.pdf",
+        "downloadName": "Umrah-Guide.pdf"
+      },
+      "tags": ["all", "available", "single", "outside", "travel", "worship", "a4"],
+      "pages": null,
+      "status": "available"
+    }
+  ],
+  "comingSoon": [
+    {
+      "id": "dua-on-the-go",
+      "slug": "dua-on-the-go",
+      "webpage": "dua-on-the-go.html",
+      "title": "Dua on the Go",
+      "description": "Printable strip cards for travel — journey prayers, marketplace duas, mosque duas, and key Dhikr for the car. Designed to laminate and carry. Front: dua in Arabic, transliteration, translation. Back: the full Hadith.",
+      "notifySubject": "Notify me: Dua on the Go",
+      "status": "coming_soon",
+      "tags": ["all", "coming-soon", "outside", "travel", "carry", "a4", "strip"]
+    },
+    {
+      "id": "allahs-99-names",
+      "slug": "allahs-99-names",
+      "webpage": "allahs-99-names.html",
+      "title": "Allah's 99 Names — Small Booklet",
+      "description": "A small, pocketable booklet — each page one Name of Allah in Arabic, transliteration, and meaning. Colour-coded by category (Mercy, Majesty, Wisdom…). One A4 sheet yields 18 booklet pages when folded and trimmed.",
+      "notifySubject": "Notify me: 99 Names Booklet",
+      "status": "coming_soon",
+      "tags": ["all", "coming-soon", "booklet", "pocket", "carry", "gift"]
+    }
+  ]
+}

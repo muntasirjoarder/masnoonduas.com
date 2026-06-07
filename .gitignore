@@ -1,0 +1,10 @@
+# Archive — old working files, not part of the live site
+.archive/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
