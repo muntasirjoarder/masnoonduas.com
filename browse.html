@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preload" href="css/base.css" as="style">
   <link rel="preload" href="css/browse.css" as="style">
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3SFLHLV78"></script>
+  <!-- Google Analytics (deferred — queued immediately, script loads after page) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-L3SFLHLV78');
+    window.addEventListener('load', function() {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-L3SFLHLV78';
+      document.head.appendChild(s);
+    });
   </script>
   <title>Browse & Download Free Islamic Dua Cards | MasnoonDuas</title>
   <meta name="description" content="Browse and download print-ready Islamic dua cards for every room in your home. Real duas, real PDFs — download, print, laminate, and place.">

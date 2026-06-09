@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preload" href="css/base.css" as="style">
   <link rel="preload" href="css/distribute.css" as="style">
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3SFLHLV78"></script>
+  <!-- Google Analytics (deferred — queued immediately, script loads after page) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-L3SFLHLV78');
+    window.addEventListener('load', function() {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-L3SFLHLV78';
+      document.head.appendChild(s);
+    });
   </script>
   <title>Free Dua Distribution to Mosques & Communities | MasnoonDuas</title>
   <meta name="description" content="We print and distribute MasnoonDuas cards for free to mosques, Islamic centres, and community spaces as an act of sadaqah jariyah.">
