@@ -5,18 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preload" href="css/base.css" as="style">
   <link rel="preload" href="css/browse.css" as="style">
-  <!-- Google Analytics (deferred — queued immediately, script loads after page) -->
+  <!-- Google Analytics (interaction-triggered — queued immediately, script loads on first user interaction) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-L3SFLHLV78');
-    window.addEventListener('load', function() {
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-L3SFLHLV78';
-      document.head.appendChild(s);
-    });
+    (function() {
+      var loaded = false;
+      function loadGA() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-L3SFLHLV78';
+        document.head.appendChild(s);
+      }
+      ['click','scroll','keydown','touchstart'].forEach(function(e) {
+        window.addEventListener(e, loadGA, {once: true, passive: true});
+      });
+    })();
   </script>
   <title>Browse & Download Free Islamic Dua Cards | MasnoonDuas</title>
   <meta name="description" content="Browse and download print-ready Islamic dua cards for every room in your home. Real duas, real PDFs — download, print, laminate, and place.">
