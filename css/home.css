@@ -18,7 +18,7 @@
 .hero-kicker {
   display: inline-flex; align-items: center; gap: 10px;
   font-size: 11px; font-weight: 600; letter-spacing: 0.14em;
-  text-transform: uppercase; color: var(--gold); margin-bottom: 22px;
+  text-transform: uppercase; color: #7A5C00; margin-bottom: 22px;
 }
 .hero-kicker::before {
   content: ''; display: block; width: 28px; height: 1px; background: var(--gold);
@@ -87,13 +87,13 @@
 }
 .cta-kicker {
   font-size: 11px; font-weight: 600; letter-spacing: 0.14em;
-  text-transform: uppercase; color: var(--gold-light); margin-bottom: 12px;
+  text-transform: uppercase; color: rgba(255,255,255,0.9); margin-bottom: 12px;
 }
 .cta-title {
   font-family: var(--font-display); font-size: clamp(24px, 2.2vw, 34px);
   font-weight: 600; color: #fff; line-height: 1.18; margin-bottom: 12px;
 }
-.cta-sub { font-size: 16px; color: rgba(255,255,255,0.6); max-width: 480px; }
+.cta-sub { font-size: 16px; color: rgba(255,255,255,0.87); max-width: 480px; }
 .cta-btns { display: flex; gap: 12px; flex-shrink: 0; }
 
 /* ── ROOMS ── */
